@@ -1,5 +1,0 @@
-{
-  "checked": "2026-10-16",
-  "fees": {"listing": 0.20, "transaction_pct": 6.5, "processing_pct": 3.0, "processing_flat": 0.25, "offsite_std_pct": 15, "offsite_disc_pct": 12, "offsite_cap": 100},
-  "prices": [5, 10, 15, 20, 25, 30, 40, 50, 75, 100]
-}
