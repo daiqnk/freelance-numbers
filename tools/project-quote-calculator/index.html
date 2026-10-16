@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Project Quote Calculator for Freelancers | Freelance Numbers</title>
+<meta name="description" content="Price a freelance project phase by phase, add a buffer, include or pass on payment fees, and check the effective hourly rate against your floor.">
+<link rel="canonical" href="https://daiqnk.github.io/freelance-numbers/tools/project-quote-calculator/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Freelance Numbers">
+<meta property="og:title" content="Project Quote Calculator for Freelancers">
+<meta property="og:description" content="Price a freelance project phase by phase, add a buffer, include or pass on payment fees, and check the effective hourly rate against your floor.">
+<meta property="og:url" content="https://daiqnk.github.io/freelance-numbers/tools/project-quote-calculator/">
+<meta property="og:image" content="https://daiqnk.github.io/freelance-numbers/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0f9d74">
+<link rel="icon" href="/freelance-numbers/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/freelance-numbers/assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Freelance Project Quote Calculator", "url": "https://daiqnk.github.io/freelance-numbers/tools/project-quote-calculator/", "applicationCategory": "FinanceApplication", "operatingSystem": "Any (web browser)", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"}, "description": "Price a freelance project phase by phase, add a buffer, include or pass on payment fees, and check the effective hourly rate against your floor."}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://daiqnk.github.io/freelance-numbers/"}, {"@type": "ListItem", "position": 2, "name": "Project quote calculator", "item": "https://daiqnk.github.io/freelance-numbers/tools/project-quote-calculator/"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="/freelance-numbers/"><svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0f9d74"/><rect x="7" y="17" width="4" height="8" rx="1" fill="#fff"/><rect x="14" y="12" width="4" height="13" rx="1" fill="#fff"/><rect x="21" y="7" width="4" height="18" rx="1" fill="#fff"/></svg><span>Freelance Numbers</span></a>
+<nav class="main" aria-label="Main"><a href="/freelance-numbers/tools/freelance-hourly-rate-calculator/">Rate calculator</a><a href="/freelance-numbers/tools/project-quote-calculator/" aria-current="page">Quote calculator</a><a href="/freelance-numbers/guides/">Guides</a><a href="/freelance-numbers/templates/">Templates</a><a href="/freelance-numbers/about/">About</a></nav>
+</div></header>
+<main id="main"><div class="wrap">
+<div class="crumbs"><a href="/freelance-numbers/">Home</a> › <a href="/freelance-numbers/tools/project-quote-calculator/">Tools</a> › Project quote calculator</div>
+<h1>Project quote calculator</h1>
+<p class="lead">Price a fixed-fee project phase by phase, add a contingency, see what actually reaches your account after payment fees, and check whether the job clears your hourly floor.</p>
+<div class="tool">
+<form id="q_form" class="panel" novalidate>
+<h2>Phases</h2>
+<table class="phases" id="q_phases"><thead><tr><th>Phase / deliverable</th><th>Hours</th><th></th></tr></thead><tbody></tbody></table>
+<button class="btn ghost small" type="button" id="q_add">+ Add phase</button>
+<h2 style="margin-top:22px">Pricing</h2>
+<div class="row2">
+<div class="field"><label for="q_currency">Currency</label><select id="q_currency" name="q_currency"><option value="USD">USD $</option><option value="EUR">EUR €</option><option value="GBP">GBP £</option><option value="CAD">CAD $</option><option value="AUD">AUD $</option><option value="INR">INR ₹</option><option value="NONE">No symbol</option></select></div>
+<div class="field"><label for="q_rate">Hourly rate</label>
+<input id="q_rate" name="q_rate" type="number" inputmode="decimal" min="0" step="1" value="90"></div>
+</div>
+<div class="row2">
+<div class="field"><label for="q_buffer">Contingency buffer (%) <span class="hint">For unknowns inside scope</span></label>
+<input id="q_buffer" name="q_buffer" type="number" inputmode="decimal" min="0" max="200" step="1" value="15"></div>
+<div class="field"><label for="q_deposit">Deposit up front (%) <span class="hint">0 for none</span></label>
+<input id="q_deposit" name="q_deposit" type="number" inputmode="decimal" min="0" max="100" step="5" value="50"></div>
+</div>
+<h2 style="margin-top:10px">Payment fees</h2>
+<div class="row3">
+<div class="field"><label for="q_feepct">Fee (%)</label>
+<input id="q_feepct" name="q_feepct" type="number" inputmode="decimal" min="0" max="50" step="0.1" value="3"></div>
+<div class="field"><label for="q_feefix">Fixed fee <span class="hint">Per payment</span></label>
+<input id="q_feefix" name="q_feefix" type="number" inputmode="decimal" min="0" step="0.01" value="0.3"></div>
+<div class="field"><label for="q_fx">FX / conversion (%) <span class="hint">If paid in another currency</span></label>
+<input id="q_fx" name="q_fx" type="number" inputmode="decimal" min="0" max="50" step="0.1" value="0"></div>
+</div>
+<p class="hint" style="font-size:13.5px;color:var(--muted);margin-top:-6px">Use your provider's current published fees. The defaults are just examples.</p>
+<label class="check"><input type="checkbox" id="q_grossup"> <span>Pass fees on: invoice enough that I receive the full project total. <span style="color:var(--muted)">(Check your payment provider's rules on surcharges first.)</span></span></label>
+<h2 style="margin-top:10px">Floor check</h2>
+<div class="field"><label for="q_floor">Your rate floor per hour <span class="hint">From the hourly rate calculator</span></label>
+<input id="q_floor" name="q_floor" type="number" inputmode="decimal" min="0" step="0.01" value="75.42"></div>
+<p id="q_floor_note" class="hint" style="font-size:13.5px;color:var(--ac-d);margin-top:-8px"></p>
+<p id="q_error" class="err" role="alert"></p>
+<div class="actions"><button class="btn ghost small" type="button" id="q_reset">Reset to example</button></div>
+</form>
+<div class="panel results" aria-live="polite">
+<h2>Your quote</h2>
+<div class="big"><div class="lbl">Amount to invoice</div><div class="val" id="q_out_big">—</div></div>
+<div id="q_verdict" class="verdict"></div>
+<dl class="out">
+<dt>Total hours</dt><dd id="q_out_hours">—</dd>
+<dt>Labour (hours × rate)</dt><dd id="q_out_labour">—</dd>
+<dt>Contingency</dt><dd id="q_out_buffer">—</dd>
+<dt>Project total</dt><dd id="q_out_quote">—</dd>
+<dt>Invoice amount</dt><dd id="q_out_invoice">—</dd>
+<div class="sep"></div>
+<dt>Payment fees</dt><dd id="q_out_fees">—</dd>
+<dt>Lands in your account</dt><dd id="q_out_net">—</dd>
+<dt>Deposit / balance</dt><dd><span id="q_out_deposit">—</span> / <span id="q_out_balance">—</span></dd>
+<div class="sep"></div>
+<dt>Effective hourly if the estimate holds</dt><dd id="q_out_eff">—</dd>
+<dt>Effective hourly if the buffer is used up</dt><dd id="q_out_effworst">—</dd>
+</dl>
+<div class="actions" id="q_summary"><button class="btn small" type="button" id="q_copy">Copy quote breakdown</button><span class="copied" id="q_copied"></span></div>
+</div>
+</div>
+
+<section class="block narrow">
+<h2>How to read the verdict</h2>
+<ul>
+<li><strong>✔ Above your floor even if the buffer is used up.</strong> The price holds even if the job runs over within the buffer.</li>
+<li><strong>⚠ Above your floor only if your estimate holds.</strong> Any overrun takes you below it. Consider a bigger buffer, a higher rate or tighter scope.</li>
+<li><strong>✖ Below your floor.</strong> After fees, this job pays less per hour than your business needs.</li>
+</ul>
+<p>"Effective hourly" is the money that lands in your account divided by hours worked. To pass fees on, the invoice is grossed up: <code>invoice = (project total + fixed fee) ÷ (1 − fee % − FX %)</code>. The full method, with a worked example, is in <a href="/freelance-numbers/guides/how-to-quote-a-freelance-project/">How to quote a freelance project</a>.</p>
+<h2>Frequently asked questions</h2>
+<h3>Where do I get my rate floor?</h3>
+<p>Use the <a href="/freelance-numbers/tools/freelance-hourly-rate-calculator/">hourly rate calculator</a>. If you've used it in this browser, this page fills in your floor and a suggested rate automatically.</p>
+<h3>Can I legally add payment fees to my invoice?</h3>
+<p>It depends on your payment provider's terms and on local consumer and surcharge rules, especially for consumer clients. Check both before you do it, and show the processing amount clearly.</p>
+<h3>Is my data saved?</h3>
+<p>Only in this browser (localStorage). Nothing is sent to a server.</p>
+</section>
+<aside class="promo" aria-label="Recommended product">
+<div class="ico" aria-hidden="true">📊</div>
+<div><span class="tag own">Our product</span><h3>Freelance Take-Home &amp; Invoice Kit</h3>
+<p>The spreadsheet version of these calculators, plus a quote builder with a ✔/⚠/✖ floor check, a printable invoice, a 200-row invoice log with overdue flags, per-client totals and a monthly cash dashboard.</p>
+<a class="btn" href="https://hustlemaniac23.gumroad.com/l/ulujfl" rel="noopener">See the full kit →</a>
+<small>Excel / Google Sheets · paid. Sold through Gumroad. We make this product and earn money if you buy it. Made with AI assistance. <a href="/freelance-numbers/disclosure/">Disclosure</a></small></div></aside>
+<p class="disclaimer">General information only, not tax, legal or financial advice.</p>
+
+</div></main>
+<footer class="site"><div class="wrap">
+<div class="cols">
+<div><p><strong>Freelance Numbers</strong>: free calculators and plain-English guides for freelancers and job seekers.</p>
+<p class="disclaimer">General information only, not tax, legal or financial advice. Content and code are produced with AI assistance. <a href="/freelance-numbers/about/">How this site is made</a>.</p></div>
+<div><p><a href="/freelance-numbers/about/">About</a><a href="/freelance-numbers/privacy/">Privacy</a><a href="/freelance-numbers/disclosure/">Disclosure</a><a href="/freelance-numbers/sitemap.xml">Sitemap</a></p>
+<p>© 2026 Freelance Numbers</p></div>
+</div></div></footer>
+<script src="/freelance-numbers/assets/tools.js" defer></script>
+</body>
+</html>
