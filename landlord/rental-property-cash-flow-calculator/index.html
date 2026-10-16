@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rental Property Cash Flow Calculator (Monthly) | Freelance Numbers</title>
+<meta name="description" content="Monthly rental cash flow calculator with vacancy, reserves and mortgage, plus break-even rent, and why cash flow differs from taxable rental income.">
+<link rel="canonical" href="https://daiqnk.github.io/freelance-numbers/landlord/rental-property-cash-flow-calculator/">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Freelance Numbers">
+<meta property="og:title" content="Rental Property Cash Flow Calculator (Monthly)">
+<meta property="og:description" content="Monthly rental cash flow calculator with vacancy, reserves and mortgage, plus break-even rent, and why cash flow differs from taxable rental income.">
+<meta property="og:url" content="https://daiqnk.github.io/freelance-numbers/landlord/rental-property-cash-flow-calculator/">
+<meta property="og:image" content="https://daiqnk.github.io/freelance-numbers/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0f9d74">
+<link rel="icon" href="/freelance-numbers/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/freelance-numbers/assets/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Rental Property Cash Flow Calculator (Monthly, With Vacancy and Reserves)", "description": "Monthly rental cash flow calculator with vacancy, reserves and mortgage, plus break-even rent, and why cash flow differs from taxable rental income.", "datePublished": "2026-10-16", "dateModified": "2026-10-16", "mainEntityOfPage": "https://daiqnk.github.io/freelance-numbers/landlord/rental-property-cash-flow-calculator/", "author": {"@type": "Organization", "name": "Freelance Numbers", "url": "https://daiqnk.github.io/freelance-numbers/about/"}, "publisher": {"@type": "Organization", "name": "Freelance Numbers"}, "image": "https://daiqnk.github.io/freelance-numbers/assets/og.png"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://daiqnk.github.io/freelance-numbers/"}, {"@type": "ListItem", "position": 2, "name": "Landlord bookkeeping", "item": "https://daiqnk.github.io/freelance-numbers/landlord/"}, {"@type": "ListItem", "position": 3, "name": "Rental cash flow calculator", "item": "https://daiqnk.github.io/freelance-numbers/landlord/rental-property-cash-flow-calculator/"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site"><div class="wrap">
+<a class="brand" href="/freelance-numbers/"><svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0f9d74"/><rect x="7" y="17" width="4" height="8" rx="1" fill="#fff"/><rect x="14" y="12" width="4" height="13" rx="1" fill="#fff"/><rect x="21" y="7" width="4" height="18" rx="1" fill="#fff"/></svg><span>Freelance Numbers</span></a>
+<nav class="main" aria-label="Main"><a href="/freelance-numbers/tools/freelance-hourly-rate-calculator/">Rate calculator</a><a href="/freelance-numbers/tools/project-quote-calculator/">Quote calculator</a><a href="/freelance-numbers/guides/" aria-current="page">Guides</a><a href="/freelance-numbers/templates/">Templates</a><a href="/freelance-numbers/about/">About</a></nav>
+</div></header>
+<main id="main"><div class="wrap">
+<div class="crumbs"><a href="/freelance-numbers/">Home</a> › <a href="/freelance-numbers/landlord/">Landlord bookkeeping</a> › Rental cash flow calculator</div>
+<article class="guide narrow">
+<h1>Rental Property Cash Flow Calculator (Monthly, With Vacancy and Reserves)</h1>
+<div class="meta">Checked 2026-10-16 against IRS Publication 527 (2025) and the other IRS pages listed under Sources. US federal rules only. <a href="/freelance-numbers/about/">How we make content</a></div>
+<p class="lead">Cash flow is what's left in your account each month after the mortgage payment and running costs. It is not the same as the profit or loss on your tax return, which ignores principal but subtracts depreciation. This calculator handles the cash side; the IRS example below shows the tax side.</p>
+<h2 id="calculator">Calculator</h2>
+<div class="tool"><form class="panel" data-calc="cf" novalidate>
+<div class="row2"><div class="field"><label for="c_rent">Monthly rent ($)</label><input id="c_rent" type="number" inputmode="decimal" step="any" value="1800"></div><div class="field"><label for="c_vac">Vacancy (%)</label><input id="c_vac" type="number" inputmode="decimal" step="any" value="5"></div></div>
+<div class="row2"><div class="field"><label for="c_mort">Mortgage P&amp;I ($/mo)</label><input id="c_mort" type="number" inputmode="decimal" step="any" value="1050"></div><div class="field"><label for="c_tax">Property tax ($/mo)</label><input id="c_tax" type="number" inputmode="decimal" step="any" value="200"></div></div>
+<div class="row2"><div class="field"><label for="c_ins">Insurance ($/mo)</label><input id="c_ins" type="number" inputmode="decimal" step="any" value="90"></div><div class="field"><label for="c_hoa">HOA ($/mo)</label><input id="c_hoa" type="number" inputmode="decimal" step="any" value="0"></div></div>
+<div class="row2"><div class="field"><label for="c_util">Utilities you pay ($/mo)</label><input id="c_util" type="number" inputmode="decimal" step="any" value="40"></div><div class="field"><label for="c_mgmt">Management (% of rent)</label><input id="c_mgmt" type="number" inputmode="decimal" step="any" value="0"></div></div>
+<div class="row2"><div class="field"><label for="c_maint">Maintenance reserve (% of rent)</label><input id="c_maint" type="number" inputmode="decimal" step="any" value="5"></div><div class="field"><label for="c_capex">Capital reserve (% of rent)</label><input id="c_capex" type="number" inputmode="decimal" step="any" value="5"></div></div>
+</form>
+<div class="panel results"><div class="big"><div class="lbl">Monthly cash flow</div><div class="val" id="c_o_cash">–</div></div>
+<dl class="out"><dt>Effective rent after vacancy</dt><dd id="c_o_eff">–</dd><dt>Operating costs and reserves</dt><dd id="c_o_opex">–</dd><dt>Net operating income</dt><dd id="c_o_noi">–</dd><dd class="sep"></dd><dt>Cash flow per year</dt><dd id="c_o_year">–</dd><dt>Break-even rent</dt><dd id="c_o_be">–</dd></dl>
+<p class="sub"><small>Default inputs are an illustration, not market data.</small></p></div></div>
+<h2 id="s0">What each input means</h2><ul><li><strong>Vacancy %</strong>: share of the year you expect the unit to be empty or rent to go uncollected. One empty month a year is about 8.3%.</li>
+<li><strong>Maintenance and capital reserve %</strong>: money set aside from each month's rent for repairs and for big-ticket replacements (roof, water heater). These are your own assumptions; there is no official rate.</li>
+<li><strong>Mortgage payment</strong>: principal and interest. If taxes and insurance are escrowed, put them in their own fields and leave them out of this one.</li>
+<li><strong>Break-even rent</strong>: the monthly rent at which cash flow is exactly zero with your other inputs.</li></ul><h2 id="s1">Cash flow vs taxable rental income: the IRS example</h2><p>Pub. 527 includes a full example: a house rented all 12 months at $1,125 ($13,500 a year) with mortgage interest of $8,000, fire insurance $250, repairs $400, real estate taxes $500 and maintenance $200, which is $9,350 of expenses. Depreciation on the $120,000 building is $4,363. Result on Schedule E: a <strong>net rental loss of ($213)</strong>.</p>
+<p>In cash terms the same year leaves $4,150 before any principal payments, because depreciation isn't a cash cost. Principal payments, in turn, cost cash but aren't deductible. Track both views: cash flow tells you whether the property pays its way month to month; Schedule E tells you what you report.</p><h2 id="s2">Reading the result</h2><p>If cash flow is negative, the break-even figure shows how far rent would need to move. Re-run with a higher vacancy % to see how sensitive the property is to one bad month. Nothing here is investment advice; it is arithmetic on your own numbers.</p>
+
+<h2 id="templates">Keep landlord books in these categories</h2>
+<p>Our rental spreadsheets use Schedule E-style expense categories (you can rename them), track security deposits separately from income, and total everything per property:</p>
+<aside class="promo" aria-label="Free product">
+<div class="ico" aria-hidden="true">🆓</div>
+<div><span class="tag own">Our product · Free</span><h3>FREE Rental Income &amp; Expense Tracker</h3>
+<p>Rent and expenses for up to 3 rentals with editable Schedule E-style categories, monthly net cash flow, totals per property and per category. Excel and Google Sheets.</p>
+<a class="btn" href="https://hustlemaniac23.gumroad.com/l/cswnop" rel="noopener">Get the free version →</a>
+<small>Free ($0+). Sold through Gumroad. <a href="/freelance-numbers/disclosure/">Disclosure</a></small></div></aside>
+<aside class="promo" aria-label="Recommended product">
+<div class="ico" aria-hidden="true">🏠</div>
+<div><span class="tag own">Our product</span><h3>Rental Property Bookkeeping Spreadsheet</h3>
+<p>Books for up to 10 rentals: income and expenses by Schedule E line name, tenants and leases with late flags, rent roll, tenant ledger, security deposits with return deadlines, a P&amp;L per property and a dashboard.</p>
+<a class="btn" href="https://hustlemaniac23.gumroad.com/l/msbbh" rel="noopener">See the full template →</a>
+<small>Excel / Google Sheets · $12. Sold through Gumroad. We make this product and earn money if you buy it. <a href="/freelance-numbers/disclosure/">Disclosure</a></small></div></aside>
+<div class="note">General information, not tax or legal advice. State and local rules (for example on security deposits) differ. Ask a qualified professional for your situation.</div>
+<h2 id="sources">Sources</h2><ul class="sources"><li><a href="https://www.irs.gov/publications/p527" rel="noopener">IRS Publication 527 (2025), Residential Rental Property</a></li></ul>
+</article>
+<section class="block"><h2>Related pages</h2><div class="grid g3"><a class="card" href="/freelance-numbers/landlord/security-deposit-accounting-for-landlords/"><h3>Security deposit accounting</h3><p>When a security deposit counts as rental income under IRS Pub. 527, deposits used as last month's rent, and a…</p></a><a class="card" href="/freelance-numbers/landlord/what-counts-as-rental-income/"><h3>What counts as rental income</h3><p>What counts as rental income per IRS Pub. 527: advance rent, lease cancellation, tenant-paid bills, services…</p></a><a class="card" href="/freelance-numbers/landlord/landlord-mileage-deduction/"><h3>Landlord mileage deduction</h3><p>When landlords can deduct driving to a rental, IRS mileage rates (70¢ for 2025; 72.5¢ then 76¢ in 2026) and a…</p></a></div></section>
+</div></main>
+<footer class="site"><div class="wrap">
+<div class="cols">
+<div><p><strong>Freelance Numbers</strong>: free calculators and plain-English guides for freelancers, small sellers and landlords.</p>
+<p class="disclaimer">General information only, not tax, legal or financial advice. <a href="/freelance-numbers/about/">How this site is made</a>.</p></div>
+<div><p><a href="/freelance-numbers/about/">About</a><a href="/freelance-numbers/privacy/">Privacy</a><a href="/freelance-numbers/extensions/">Extensions</a><a href="/freelance-numbers/disclosure/">Disclosure</a><a href="/freelance-numbers/sitemap.xml">Sitemap</a></p>
+<p>© 2026 Freelance Numbers</p></div>
+</div></div></footer>
+<script src="/freelance-numbers/assets/seo.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+{
+ "checked": "2026-10-16",
+ "pages": [
+  {
+   "slug": "rental-property-expense-categories",
+   "title": "Rental Property Expense Categories: The 15 Schedule E Lines Explained",
+   "short": "Rental expense categories (Schedule E)",
+   "desc": "The rental expense categories on Schedule E lines 5–19, what goes on each line, and a calculator that totals your year. Based on IRS Pub. 527.",
+   "lead": "If you keep your landlord books in the same categories the IRS uses on Schedule E, year-end is mostly copying totals. Below are the expense lines from Schedule E, Part I, what usually belongs on each, and a calculator that adds up your year.",
+   "calc": "exp",
+   "sections": [
+    [
+     "The Schedule E expense lines",
+     "<p>Schedule E (Form 1040), Part I is where most individual landlords report rental income and expenses for each property. The expense lines are:</p>\n<table><tr><th>Line</th><th>Category</th><th>Examples of what goes here</th></tr>\n<tr><td>5</td><td>Advertising</td><td>Listing-site fees, signs, ads for a vacancy</td></tr>\n<tr><td>6</td><td>Auto and travel</td><td>Mileage or actual car costs to collect rent or maintain the property; travel away from home whose main purpose is managing the rental (see our <a href=\"/freelance-numbers/landlord/landlord-mileage-deduction/\">mileage page</a>)</td></tr>\n<tr><td>7</td><td>Cleaning and maintenance</td><td>Turnover cleaning, lawn care, pest control</td></tr>\n<tr><td>8</td><td>Commissions</td><td>Leasing or tenant-placement commissions</td></tr>\n<tr><td>9</td><td>Insurance</td><td>Landlord/fire policy for the year (prepaid multi-year premiums are spread over the years covered)</td></tr>\n<tr><td>10</td><td>Legal and other professional fees</td><td>Lease review, eviction attorney, tax prep for the Schedule E part</td></tr>\n<tr><td>11</td><td>Management fees</td><td>Property manager's monthly percentage</td></tr>\n<tr><td>12</td><td>Mortgage interest paid to banks, etc.</td><td>Interest from Form 1098 (interest only, never principal)</td></tr>\n<tr><td>13</td><td>Other interest</td><td>Interest on other loans used for the rental</td></tr>\n<tr><td>14</td><td>Repairs</td><td>Fixing what's broken without bettering, restoring or adapting the property (see <a href=\"/freelance-numbers/landlord/repairs-vs-improvements-rental-property/\">repairs vs improvements</a>)</td></tr>\n<tr><td>15</td><td>Supplies</td><td>Light bulbs, smoke-alarm batteries, cleaning supplies</td></tr>\n<tr><td>16</td><td>Taxes</td><td>Property tax on the rental</td></tr>\n<tr><td>17</td><td>Utilities</td><td>Utilities you pay as the landlord</td></tr>\n<tr><td>18</td><td>Depreciation expense or depletion</td><td>Yearly depreciation of the building and improvements (see the <a href=\"/freelance-numbers/landlord/rental-property-depreciation-calculator/\">depreciation calculator</a>)</td></tr>\n<tr><td>19</td><td>Other</td><td>HOA/condo dues for maintenance of common areas, equipment rental, other ordinary and necessary costs (list them)</td></tr></table>\n<p>The examples column is our plain-English summary; the official wording is in the Schedule E instructions linked below.</p>"
+    ],
+    [
+     "Three rules that trip people up",
+     "<ul>\n<li><strong>Mortgage principal is not an expense.</strong> Pub. 527 says you can't simply deduct mortgage or principal payments; the building's cost is recovered through depreciation instead.</li>\n<li><strong>Improvements aren't repairs.</strong> An expense that results in a betterment, restoration, or adaptation of the property must be capitalized and depreciated.</li>\n<li><strong>Insurance paid in advance is spread.</strong> If you pay a premium for more than one year in advance, you deduct only the part that applies to each year.</li></ul>"
+    ],
+    [
+     "How to set up your bookkeeping categories",
+     "<p>Use exactly these line names as the category list in your spreadsheet or bank-feed rules, one column per property. Two extra non-expense columns help: <em>capital improvements</em> (to depreciate later) and <em>security deposits held</em> (not income while you plan to return them). At year-end, a pivot by line number gives you each Schedule E figure.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "What expense categories does Schedule E use for rental property?",
+     "Lines 5 to 19 of Schedule E, Part I: advertising, auto and travel, cleaning and maintenance, commissions, insurance, legal and other professional fees, management fees, mortgage interest paid to banks, other interest, repairs, supplies, taxes, utilities, depreciation, and other."
+    ],
+    [
+     "Can I deduct my mortgage payment on a rental?",
+     "Only the interest part (line 12). IRS Publication 527 says you can't deduct mortgage principal payments; the building cost is recovered through depreciation."
+    ]
+   ],
+   "sources": [
+    [
+     "IRS Publication 527 (2025), Residential Rental Property",
+     "https://www.irs.gov/publications/p527"
+    ],
+    [
+     "About Schedule E (Form 1040)",
+     "https://www.irs.gov/forms-pubs/about-schedule-e-form-1040"
+    ],
+    [
+     "Instructions for Schedule E (Form 1040)",
+     "https://www.irs.gov/instructions/i1040se"
+    ]
+   ],
+   "seo_title": "Rental Property Expense Categories (Schedule E Lines 5–19)"
+  },
+  {
+   "slug": "repairs-vs-improvements-rental-property",
+   "title": "Repairs vs Improvements on a Rental Property: Deduct Now or Depreciate?",
+   "short": "Repairs vs improvements",
+   "desc": "How the IRS separates deductible repairs from capital improvements on a rental (betterment, restoration, adaptation), with examples and a calculator.",
+   "lead": "A $4,000 repair and a $4,000 improvement look identical on your bank statement, but the tax treatment is very different: one is deducted this year, the other is spread over 27.5 years for a residential building. Here is how IRS Publication 527 draws the line.",
+   "calc": "rep",
+   "sections": [
+    [
+     "The test: betterment, restoration or adaptation",
+     "<p>Pub. 527 says you must capitalize any expense that improves your rental property. An expense is an improvement if it results in:</p>\n<ul><li><strong>Betterment</strong>: fixing a pre-existing defect, enlarging or expanding the property, or increasing its capacity, strength or quality.</li>\n<li><strong>Restoration</strong>: replacing a substantial structural part, repairing damage after a casualty basis adjustment, or rebuilding to like-new condition.</li>\n<li><strong>Adaptation</strong>: altering the property to a use that isn't consistent with its ordinary use when you began renting it.</li></ul>\n<p>If none of these applies, a cost of repairing or maintaining the property can generally be deducted.</p>"
+    ],
+    [
+     "Examples the IRS lists as improvements",
+     "<p>Table 1-1 in Pub. 527 lists, among others: additions (bedroom, bathroom, deck, garage, porch, patio); landscaping, driveway, walkway, fence, retaining wall, sprinkler system, swimming pool; storm windows and doors, a new roof, wiring upgrades, security system; heating system, central air, furnace, duct work; septic system, water heater, soft-water and filtration systems; built-in appliances, kitchen modernization, flooring, wall-to-wall carpeting, insulation.</p>"
+    ],
+    [
+     "Two safe harbors worth knowing",
+     "<p>Pub. 527 points to two elections under the tangible property regulations: the <strong>de minimis safe harbor</strong> (lets you deduct certain small acquisition costs on line 19 instead of capitalizing) and the <strong>routine maintenance safe harbor</strong> (may let you deduct a cost even if it looks like an improvement). The conditions and dollar limits are in the IRS FAQ linked below; check them before relying on either.</p>"
+    ],
+    [
+     "Keep the records separate",
+     "<p>Pub. 527 advises separating repair and improvement costs and keeping accurate records, because you need improvement costs when you depreciate or sell. In a spreadsheet, give improvements their own tab with date placed in service and cost, and keep repairs in the normal expense log on Schedule E line 14.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Is a new roof on a rental a repair or an improvement?",
+     "IRS Publication 527, Table 1-1, lists a new roof as an improvement, so it is capitalized and depreciated, generally over the same 27.5-year recovery period as the residential building."
+    ],
+    [
+     "What makes a rental expense an improvement?",
+     "Pub. 527 says an expense is an improvement if it results in a betterment to the property, restores the property, or adapts it to a new or different use."
+    ]
+   ],
+   "sources": [
+    [
+     "IRS Publication 527 (2025), Residential Rental Property",
+     "https://www.irs.gov/publications/p527"
+    ],
+    [
+     "Tangible Property Final Regulations (IRS FAQ)",
+     "https://www.irs.gov/businesses/small-businesses-self-employed/tangible-property-final-regulations"
+    ]
+   ],
+   "seo_title": "Repairs vs Improvements on Rental Property"
+  },
+  {
+   "slug": "rental-property-depreciation-calculator",
+   "title": "Rental Property Depreciation Calculator (27.5 Years, Mid-Month)",
+   "short": "Rental depreciation calculator",
+   "desc": "Depreciation on a residential rental building: 27.5-year straight line, mid-month convention, land excluded, first-year amount by month. Per IRS Pub. 527.",
+   "lead": "Residential rental buildings placed in service after 1986 are generally depreciated over 27.5 years using the straight line method and the mid-month convention. Enter your numbers below to see the depreciable basis, the first-year amount and the full-year amount.",
+   "calc": "dep",
+   "sections": [
+    [
+     "How the numbers work",
+     "<ul><li><strong>Land is excluded.</strong> Land doesn't wear out, so only the building part of the price is depreciated. If the contract doesn't split the price, Pub. 527 allows using the ratio from the property-tax assessment (its example: $136,000 house ÷ $160,000 assessed = 85% of a $200,000 price, so a $170,000 building basis).</li>\n<li><strong>Some closing costs are added to basis</strong>: abstract fees, charges for installing utility services, legal fees, recording fees, surveys, transfer taxes, title insurance, and amounts the seller owes that you agree to pay. Loan costs such as points, credit reports and lender appraisals are not added.</li>\n<li><strong>Straight line, 27.5 years, mid-month.</strong> Property placed in service in any month is treated as placed in service at the middle of that month, so year one gets (12 − month + 0.5) ÷ 12 of a full year.</li>\n<li><strong>Depreciation starts when the property is ready and available for rent</strong>, not when the first tenant moves in.</li></ul>"
+    ],
+    [
+     "First-year percentage by month (computed)",
+     "%%DEP_TABLE%%"
+    ],
+    [
+     "Check against the IRS example",
+     "<p>Pub. 527's example: a $185,000 house where the contract shows $160,000 for the building and $25,000 for land, placed in service on February 8. The table rate for February in year one is 3.182%, giving $5,091 ($160,000 × 3.182%). Enter 185000, 25000, 0 and month 2 above and the calculator shows $5,090.91, which rounds to the same figure. Full years after that are $160,000 ÷ 27.5 = $5,818.18 (the table's 3.636%).</p>"
+    ],
+    [
+     "Appliances, carpet and furniture are different",
+     "<p>Pub. 527, Table 2-1: appliances, carpets and furniture used in a residential rental are 5-year property under GDS; fences and shrubbery are 15-year; additions and improvements such as a new roof use the recovery period of the property they're added to. Those shorter classes use different methods and conventions; see Pub. 946.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "How many years do you depreciate a residential rental property?",
+     "27.5 years under the General Depreciation System, using the straight line method and the mid-month convention (IRS Publication 527)."
+    ],
+    [
+     "Can you depreciate the land under a rental house?",
+     "No. Publication 527 says land can't be depreciated because it doesn't wear out, become obsolete or get used up."
+    ]
+   ],
+   "sources": [
+    [
+     "IRS Publication 527 (2025), Residential Rental Property",
+     "https://www.irs.gov/publications/p527"
+    ],
+    [
+     "IRS Publication 946, How To Depreciate Property",
+     "https://www.irs.gov/publications/p946"
+    ]
+   ],
+   "seo_title": "Rental Property Depreciation Calculator (27.5 Years)"
+  },
+  {
+   "slug": "rental-property-cash-flow-calculator",
+   "title": "Rental Property Cash Flow Calculator (Monthly, With Vacancy and Reserves)",
+   "short": "Rental cash flow calculator",
+   "desc": "Monthly rental cash flow calculator with vacancy, reserves and mortgage, plus break-even rent, and why cash flow differs from taxable rental income.",
+   "lead": "Cash flow is what's left in your account each month after the mortgage payment and running costs. It is not the same as the profit or loss on your tax return, which ignores principal but subtracts depreciation. This calculator handles the cash side; the IRS example below shows the tax side.",
+   "calc": "cf",
+   "sections": [
+    [
+     "What each input means",
+     "<ul><li><strong>Vacancy %</strong>: share of the year you expect the unit to be empty or rent to go uncollected. One empty month a year is about 8.3%.</li>\n<li><strong>Maintenance and capital reserve %</strong>: money set aside from each month's rent for repairs and for big-ticket replacements (roof, water heater). These are your own assumptions; there is no official rate.</li>\n<li><strong>Mortgage payment</strong>: principal and interest. If taxes and insurance are escrowed, put them in their own fields and leave them out of this one.</li>\n<li><strong>Break-even rent</strong>: the monthly rent at which cash flow is exactly zero with your other inputs.</li></ul>"
+    ],
+    [
+     "Cash flow vs taxable rental income: the IRS example",
+     "<p>Pub. 527 includes a full example: a house rented all 12 months at $1,125 ($13,500 a year) with mortgage interest of $8,000, fire insurance $250, repairs $400, real estate taxes $500 and maintenance $200, which is $9,350 of expenses. Depreciation on the $120,000 building is $4,363. Result on Schedule E: a <strong>net rental loss of ($213)</strong>.</p>\n<p>In cash terms the same year leaves $4,150 before any principal payments, because depreciation isn't a cash cost. Principal payments, in turn, cost cash but aren't deductible. Track both views: cash flow tells you whether the property pays its way month to month; Schedule E tells you what you report.</p>"
+    ],
+    [
+     "Reading the result",
+     "<p>If cash flow is negative, the break-even figure shows how far rent would need to move. Re-run with a higher vacancy % to see how sensitive the property is to one bad month. Nothing here is investment advice; it is arithmetic on your own numbers.</p>"
+    ]
+   ],
+   "faq": [],
+   "sources": [
+    [
+     "IRS Publication 527 (2025), Residential Rental Property",
+     "https://www.irs.gov/publications/p527"
+    ]
+   ],
+   "seo_title": "Rental Property Cash Flow Calculator (Monthly)"
+  },
+  {
+   "slug": "security-deposit-accounting-for-landlords",
+   "title": "Security Deposit Accounting for Landlords: When Is a Deposit Income?",
+   "short": "Security deposit accounting",
+   "desc": "When a security deposit counts as rental income under IRS Pub. 527, deposits used as last month's rent, and a calculator for kept vs returned.",
+   "lead": "A security deposit sits in your account, but it usually isn't income. IRS Publication 527 sets out when it becomes income, and when a so-called deposit is really advance rent.",
+   "calc": "dpst",
+   "sections": [
+    [
+     "The three cases",
+     "<table><tr><th>Situation</th><th>Treatment under Pub. 527</th></tr>\n<tr><td>Deposit you plan to return at the end of the lease</td><td>Not income when you receive it</td></tr>\n<tr><td>You keep part or all of it because the tenant didn't live up to the lease</td><td>Include the amount you keep in income in the year you keep it</td></tr>\n<tr><td>A \"deposit\" that is to be used as the final payment of rent</td><td>It's advance rent: include it in income when you receive it</td></tr></table>"
+    ],
+    [
+     "Bookkeeping that keeps this straight",
+     "<p>Record deposits in a separate <em>deposits held</em> column or account, not in rent income. When a tenant leaves, log three numbers: amount returned, amount kept (and why: damage, unpaid rent), and the date. The amount kept moves to income that year. If the kept amount pays for a repair, the repair is a normal expense on Schedule E line 14.</p>\n<p>State and local laws on holding deposits, interest and return deadlines vary widely; check yours. This page covers the federal income-tax side only.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Is a security deposit taxable income for a landlord?",
+     "Not when received if you plan to return it, according to IRS Publication 527. Any part you keep because the tenant broke the lease is income in the year you keep it."
+    ],
+    [
+     "What if the deposit is the last month's rent?",
+     "Publication 527 treats an amount called a security deposit that is to be used as a final payment of rent as advance rent, included in income when you receive it."
+    ]
+   ],
+   "sources": [
+    [
+     "IRS Publication 527 (2025), Residential Rental Property",
+     "https://www.irs.gov/publications/p527"
+    ]
+   ],
+   "seo_title": "Security Deposits: When Are They Rental Income?"
+  },
+  {
+   "slug": "what-counts-as-rental-income",
+   "title": "What Counts as Rental Income? Advance Rent, Tenant-Paid Bills and More",
+   "short": "What counts as rental income",
+   "desc": "What counts as rental income per IRS Pub. 527: advance rent, lease cancellation, tenant-paid bills, services instead of rent. With a calculator.",
+   "lead": "Rental income isn't only the monthly rent. IRS Publication 527 defines it as any payment you receive for the use or occupation of property, and gives several cases that catch landlords out.",
+   "calc": "inc",
+   "sections": [
+    [
+     "Types of rental income",
+     "<ul><li><strong>Advance rent</strong> is income in the year you receive it, whatever period it covers. Pub. 527's example: a lease signed March 18, 2025, with $9,600 received for the first year and $9,600 for the last year: <strong>$19,200</strong> goes into 2025 income.</li>\n<li><strong>Lease cancellation</strong>: if a tenant pays you to cancel a lease, the payment is rent in the year received.</li>\n<li><strong>Expenses paid by the tenant</strong>: if the tenant pays one of your bills (say, a furnace repair) and deducts it from rent, include it in income, then deduct it as an expense if it's deductible.</li>\n<li><strong>Property or services instead of rent</strong>: include the fair market value. Pub. 527's example is a painter who paints the property instead of paying two months' rent: you include the two months' rent as income and deduct the same amount as an expense.</li>\n<li><strong>Security deposits</strong> are income only when kept or when they're really advance rent (see <a href=\"/freelance-numbers/landlord/security-deposit-accounting-for-landlords/\">security deposit accounting</a>).</li></ul>"
+    ],
+    [
+     "Cash vs accrual timing",
+     "<p>Most individual landlords use the cash method: report income when you actually or constructively receive it, for example when it's credited to your bank account. On the cash method, uncollected rent isn't income, so it isn't deductible either.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "Is advance rent taxable in the year you receive it?",
+     "Yes. Publication 527 says to include advance rent in rental income in the year you receive it, regardless of the period covered or your accounting method."
+    ],
+    [
+     "Is a repair paid by my tenant rental income?",
+     "If the tenant pays it and deducts it from rent, Publication 527 says to include it in rental income; you can then deduct it as a rental expense if it's deductible."
+    ]
+   ],
+   "sources": [
+    [
+     "IRS Publication 527 (2025), Residential Rental Property",
+     "https://www.irs.gov/publications/p527"
+    ]
+   ],
+   "seo_title": "What Counts as Rental Income? (IRS Pub. 527)"
+  },
+  {
+   "slug": "landlord-mileage-deduction",
+   "title": "Landlord Mileage Deduction: 2025 and 2026 IRS Rates and a Calculator",
+   "short": "Landlord mileage deduction",
+   "desc": "When landlords can deduct driving to a rental, IRS mileage rates (70¢ for 2025; 72.5¢ then 76¢ in 2026) and a mileage calculator.",
+   "lead": "Trips to collect rent, show a vacancy, or buy supplies for a repair can be deductible rental expenses. Trips from your home to the rental usually count as commuting unless your home is your principal place of business. Here are the rules and the current rates.",
+   "calc": "mil",
+   "sections": [
+    [
+     "What counts",
+     "<p>Pub. 527: you may be able to deduct ordinary and necessary local transportation expenses incurred to collect rental income or to manage, conserve, or maintain the rental property. Travel between your home and a rental property is generally nondeductible commuting unless your home is your principal place of business (Pub. 587 covers that test).</p>\n<p>You can use either actual expenses or the standard mileage rate, and you need records that meet the rules in chapter 5 of Pub. 463. Pub. 527 also says you must complete Form 4562, Part V, to deduct car expenses under either method.</p>"
+    ],
+    [
+     "Standard mileage rates (business)",
+     "<table><tr><th>Period</th><th>Rate per mile</th></tr>\n<tr><td>2025</td><td>70¢</td></tr><tr><td>Jan 1 – Jun 30, 2026</td><td>72.5¢</td></tr><tr><td>Jul 1 – Dec 31, 2026</td><td>76¢</td></tr></table>\n<p>The mid-year 2026 change comes from IRS Announcement 2026-11 (fuel-price increase). The calculator is pre-filled with the two 2026 rates; change them for another year.</p>"
+    ],
+    [
+     "A simple log",
+     "<p>For each trip write the date, start and end point, miles and purpose (\"collect rent\", \"meet plumber\"). Split the year at June 30 for 2026 so each half uses its own rate. Auto and travel costs go on Schedule E line 6.</p>"
+    ]
+   ],
+   "faq": [
+    [
+     "What is the IRS mileage rate for 2026?",
+     "72.5 cents per mile for business miles driven January 1 to June 30, 2026, and 76 cents per mile from July 1 to December 31, 2026, per the IRS standard mileage rates page."
+    ],
+    [
+     "Can landlords deduct driving to their rental property?",
+     "Pub. 527 allows ordinary and necessary local transportation to collect rent or manage, conserve or maintain the property, but trips from home to the rental are generally commuting unless home is your principal place of business."
+    ]
+   ],
+   "sources": [
+    [
+     "IRS Publication 527 (2025), Residential Rental Property",
+     "https://www.irs.gov/publications/p527"
+    ],
+    [
+     "IRS: Standard mileage rates (all years)",
+     "https://www.irs.gov/tax-professionals/standard-mileage-rates"
+    ],
+    [
+     "IRS Publication 463, Travel, Gift, and Car Expenses",
+     "https://www.irs.gov/publications/p463"
+    ]
+   ],
+   "seo_title": "Landlord Mileage Deduction: 2025–2026 Rates"
+  }
+ ]
+}
